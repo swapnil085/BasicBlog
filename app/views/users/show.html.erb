@@ -1,0 +1,12 @@
+<div class="row">
+    <div class="col-md-3 col-sm-12">
+        <h1><%=@user.name%></h1>
+        <p><%=@user.bio%></p>
+        <% if current_user.id == @user.id %>
+            <p><a href="<%=edit_user_path(@user.id)%>" class="btn btn-primary" role="button">Edit Profile</a></p>
+        <% end %>
+    </div>
+    <div class="col-md-9 col-sm-12">
+        <p>TODO: Show user's posts here</p>
+    </div>
+</div>
