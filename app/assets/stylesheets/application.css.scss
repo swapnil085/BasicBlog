@@ -16,6 +16,10 @@
  @import 'normalize';
 
  html, body {
+   background-image: url("back2.jpg");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
  	font-family: 'Raleway', sans-serif;
  }
 
@@ -29,12 +33,12 @@
  }
 
  #sidebar {
- 	width: 250px;
+ 	width: 150px;
  	position: fixed;
  	left: 0;
  	top: 0;
  	height: 100%;
- 	background: #f5f7f9;
+ 	background: DarkSlateGrey;
  	padding: 7em 0 0 0;
  	border-right: 1px solid #d6dce0;
  	#logo {
@@ -50,7 +54,7 @@
  			font-weight: 700;
  			font-size: 0.7em;
  			text-transform: uppercase;
- 			color: #33acb7;
+ 			color: White;
  		}
  		li {
  			padding: .5em 0;
@@ -102,17 +106,17 @@
  }
 
  #main_content {
- 	margin-left: 250px;
+ 	margin-left: 150px;
  	#header {
  		padding: 1em 3em;
  		border-bottom: 1px solid #d6dce0;
- 		background: #f5f7f9;
- 		color: #9eafba;
+ 		background: DimGray;
+ 		color: White;
  		p {
  			display: inline;
  		}
  		a {
- 			color: #9eafba;
+ 			color: White;
  			text-decoration: none;
  		}
  		.buttons {
@@ -132,7 +136,7 @@
  			a {
  				font-weight: 500;
  				text-decoration: none;
- 				color: #2a2f35;
+ 				color: Black;
  				font-size: 1.5em;
  				&:hover {
  					color: #33acb7;

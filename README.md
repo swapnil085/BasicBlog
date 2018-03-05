@@ -1,24 +1,6 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+Built By Rishikesh Chaumal
 
-* Ruby version
+"BlogOH" a basic blog built using Ruby On Rails. Can handle multiple users with user authentication done using devise. One Can also login using google using the omniauth-google gem. Anyone can see all the posts created by others but can edit/delete only their own posts. A profile page for each user is provided.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...

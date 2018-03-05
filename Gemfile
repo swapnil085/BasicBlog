@@ -5,7 +5,8 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem 'bcrypt-ruby', '3.1.5', :require => 'bcrypt'
+gem 'bcrypt'
+gem "omniauth-google-oauth2"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
 gem 'coffee-script-source', '1.8.0'

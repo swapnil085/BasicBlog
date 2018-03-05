@@ -1,0 +1,9 @@
+<div class="post_wrapper">
+    <div class="col-md-3 col-sm-12">
+        <h1><%=@user.name%></h1>
+        <p><%=@user.bio%></p>
+        <% if current_user.id == @user.id %>
+            <p><a href="<%=edit_user_path(@user.id)%>" class="btn btn-primary" role="button"><b>| Edit Profile |</b></a></p>
+        <% end %>
+    </div>
+</div>
